@@ -1,6 +1,6 @@
 import {createStore} from 'redux';
-import reducers from '../reducers/index.js';
-import DevTools from '../DevTools';
+import reducers from '../reducers/index';
+import DevTools from '../../devtools/DevTools';
 
 const store = createStore(reducers, DevTools.instrument());
 
